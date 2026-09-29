@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f6f8;
+}
+
+h1 {
+    margin-top: 25px;
+}
+
+.controls {
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 150px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 18px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+#message {
+    margin: 20px;
+    font-weight: bold;
+}
+
+#tree {
+    margin-top: 40px;
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 25px;
+}
+
+.node {
+    background: white;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 12px 18px;
+    min-width: 70px;
+    box-shadow: 0 3px 8px #bbb;
+}
+
+.leaf {
+    border-color: #555;
+}
+
+.key {
+    display: inline-block;
+    padding: 5px 8px;
+    margin: 2px;
+    background: #eee;
+    border-radius: 4px;
+}
